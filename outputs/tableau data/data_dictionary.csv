@@ -1,0 +1,13 @@
+Field,Definition
+CustomerID,Unique customer identifier
+Recency,Days since latest purchase at the analysis snapshot date
+Frequency,Number of distinct invoices/orders
+Monetary,Total positive-sales revenue in GBP
+R_Score,Recency quintile score; 5 is most recent
+F_Score,Frequency quintile score; 5 is highest frequency
+M_Score,Monetary quintile score; 5 is highest spend
+RFM_Segment,Rule-based segment from R/F/M quintile scores
+Cluster,K-Means cluster ID; numeric IDs are arbitrary
+KMeans_Segment,Descriptive name assigned from cluster RFM profile
+CustomerSharePct,Percentage of customers in a segment/cluster
+RevenueSharePct,Percentage of analyzed revenue in a segment/cluster
