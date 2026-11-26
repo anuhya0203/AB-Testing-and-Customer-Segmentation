@@ -1,0 +1,30 @@
+{
+  "alpha": 0.05,
+  "control_group": "psa",
+  "treatment_group": "ad",
+  "control_users": 23524,
+  "control_conversions": 420,
+  "control_rate": 0.01785410644448223,
+  "control_ci95": [
+    0.016238943989596074,
+    0.019626711612411318
+  ],
+  "treatment_users": 564577,
+  "treatment_conversions": 14423,
+  "treatment_rate": 0.025546559636683747,
+  "treatment_ci95": [
+    0.02513821650599992,
+    0.025961359215123686
+  ],
+  "absolute_difference": 0.007692453192201517,
+  "difference_ci95": [
+    0.005873422353060636,
+    0.009360028811460754
+  ],
+  "relative_uplift_percent": 43.085064022225836,
+  "z_statistic": 7.3700781265454145,
+  "z_p_value": 1.7052807161559727e-13,
+  "chi_square": 54.005823883685245,
+  "chi_square_p_value": 1.9989623063390075e-13,
+  "cohens_h": 0.053002578606030915
+}
